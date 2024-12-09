@@ -1,0 +1,101 @@
+{
+  "changes" : [ {
+    "event_info" : {
+      "date" : "09/12/2024 14:23:24",
+      "sequence" : 700003,
+      "date_format" : "dd/mm/rrrr hh24:mi:ss",
+      "dml_operation" : "INSERT",
+      "table_name" : "OBJETO_SISTEMA",
+      "tag_name" : "CMDK",
+      "tasy_user" : "cmdk_adm",
+      "guid" : "f5527b1a-d84e-4670-b760-0d0ab3c9f5f4"
+    },
+    "server_info" : {
+      "charset" : "BRAZILIAN PORTUGUESE_BRAZIL.AL32UTF8",
+      "database_version" : "19.0",
+      "instance_name" : "phcdb4"
+    },
+    "session_info" : {
+      "machine" : "YY299522",
+      "os_user" : "320059526",
+      "tasy_user" : "cmdk_adm"
+    },
+    "primary_key_values" : [ {
+      "column_name" : "NM_OBJETO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "CMDKLTD_MATERIAL_DISP_RELEASE",
+      "old_value" : null
+    }, {
+      "column_name" : "IE_BANCO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "Oracle",
+      "old_value" : null
+    } ],
+    "column_values" : [ {
+      "column_name" : "NM_OBJETO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "CMDKLTD_MATERIAL_DISP_RELEASE",
+      "old_value" : null
+    }, {
+      "column_name" : "IE_MEMORIA",
+      "data_type" : "VARCHAR2",
+      "new_value" : "N",
+      "old_value" : null
+    }, {
+      "column_name" : "DT_CRIACAO",
+      "data_type" : "DATE",
+      "new_value" : "SYSDATE",
+      "old_value" : null
+    }, {
+      "column_name" : "DS_APLICACAO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "Tasy",
+      "old_value" : null
+    }, {
+      "column_name" : "NM_USUARIO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "cmdk_adm",
+      "old_value" : null
+    }, {
+      "column_name" : "IE_GERAR_SCRIPT",
+      "data_type" : "VARCHAR2",
+      "new_value" : "S",
+      "old_value" : null
+    }, {
+      "column_name" : "IE_BANCO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "Oracle",
+      "old_value" : null
+    }, {
+      "column_name" : "IE_TIPO_OBJETO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "PROCEDURE",
+      "old_value" : null
+    }, {
+      "column_name" : "DS_SCRIPT_CRIACAO",
+      "data_type" : "LONG",
+      "new_value" : "create or replace procedure CMDKLTD_MATERIAL_DISP_RELEASE(NR_SEQUENCIA_P NUMBER) is\n\nSUP_MATERIAL_DISP_MERCADO_w\tSUP_MATERIAL_DISP_MERCADO%rowtype;\nCMDKLTD_MATMARC_w\tCMDKLTD_MATMARC%rowtype;\n\ncursor c01 is\nselect\t*\nfrom\tmaterial_marca\nwhere\tcd_material = SUP_MATERIAL_DISP_MERCADO_w.cd_material;\n\nc01_w\tc01%rowtype;\n\nbegin\n\nbegin\nselect\t*\ninto\tSUP_MATERIAL_DISP_MERCADO_w\nfrom\tSUP_MATERIAL_DISP_MERCADO\nwhere\tNR_SEQUENCIA = NR_SEQUENCIA_P;\nexception\nwhen others then\n\tSUP_MATERIAL_DISP_MERCADO_w\t:=\tnull;\nend;\n\nopen c01;\n\tloop\n\tfetch c01 into\n\t\tc01_w;\n\texit when c01%notfound;\n\t\tbegin\n\t\tupdate\tCMDKLTD_MATMARC\n\t\tset\tie_disponivel_mercado = SUP_MATERIAL_DISP_MERCADO_w.ie_disponivel_mercado\n\t\twhere\tnr_sequencia = c01_w.NR_SEQUENCIA\n\t\tand\tcd_material = c01_w.cd_material;\n\t\t\n\t\tif\t(sql%notfound) then\n\t\t\tbegin\n\t\t\tCMDKLTD_MATMARC_w\t:=\tnull;\n\t\t\tCMDKLTD_MATMARC_w.nr_sequencia\t:=\tc01_w.NR_SEQUENCIA;\n\t\t\tCMDKLTD_MATMARC_w.cd_material\t:=\tc01_w.cd_material;\n\t\t\tCMDKLTD_MATMARC_w.ie_disponivel_mercado\t:=\tSUP_MATERIAL_DISP_MERCADO_w.ie_disponivel_mercado;\n\t\t\t\n\t\t\tinsert into CMDKLTD_MATMARC values CMDKLTD_MATMARC_w;\n\t\t\tend;\t\t\n\t\tend if;\n\t\t\n\t\tupdate material_marca\n\t\tset\tds_observacao = SUP_MATERIAL_DISP_MERCADO_w.DS_OBS_DISP_MERCADO\n\t\twhere\tcd_material = SUP_MATERIAL_DISP_MERCADO_w.cd_material;\n\t\tend;\n\tend loop;\nclose c01; \n\n\nend CMDKLTD_MATERIAL_DISP_RELEASE;\n/",
+      "old_value" : null
+    }, {
+      "column_name" : "DT_ATUALIZACAO",
+      "data_type" : "DATE",
+      "new_value" : "09/12/2024 14:21:59",
+      "old_value" : null
+    }, {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : 10144941,
+      "old_value" : null
+    }, {
+      "column_name" : "IE_CRIPTOGRAFIA",
+      "data_type" : "VARCHAR2",
+      "new_value" : "N",
+      "old_value" : null
+    }, {
+      "column_name" : "DS_LAYER",
+      "data_type" : "VARCHAR2",
+      "new_value" : "CORE.CMDK_LTDA",
+      "old_value" : null
+    } ]
+  } ]
+}
