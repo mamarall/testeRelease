@@ -1,0 +1,457 @@
+{
+  "changes" : [ {
+    "event_info" : {
+      "date" : "14/04/2025 18:40:24",
+      "sequence" : 69,
+      "date_format" : "dd/mm/rrrr hh24:mi:ss",
+      "dml_operation" : "DELETE",
+      "table_name" : "CMDK_OBJECT_INTERCEPTOR",
+      "tag_name" : "CMDK",
+      "tasy_user" : "dgalvan",
+      "guid" : "37b6b62c-12c4-4167-a482-ba04fd736d9e"
+    },
+    "server_info" : {
+      "charset" : "AMERICAN_AMERICA.AL32UTF8",
+      "database_version" : "19.0",
+      "instance_name" : "phcdb4"
+    },
+    "session_info" : {
+      "machine" : "7fe8100b91d4",
+      "os_user" : "root",
+      "tasy_user" : "dgalvan"
+    },
+    "primary_key_values" : [ {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : null,
+      "old_value" : 4983
+    } ],
+    "column_values" : [ {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : null,
+      "old_value" : 4983
+    }, {
+      "column_name" : "DT_ATUALIZACAO",
+      "data_type" : "DATE",
+      "new_value" : null,
+      "old_value" : "14/04/2025 14:20:04"
+    }, {
+      "column_name" : "NM_USUARIO",
+      "data_type" : "VARCHAR2",
+      "new_value" : null,
+      "old_value" : "dgalvan"
+    }, {
+      "column_name" : "NM_OBJECT",
+      "data_type" : "VARCHAR2",
+      "new_value" : null,
+      "old_value" : "GERAR_ORDEM_REPOSICAO_CONSIG"
+    }, {
+      "column_name" : "OBJECT_TYPE",
+      "data_type" : "VARCHAR2",
+      "new_value" : null,
+      "old_value" : "PROCEDURE"
+    }, {
+      "column_name" : "IE_INTERCEPTED",
+      "data_type" : "VARCHAR2",
+      "new_value" : null,
+      "old_value" : "Y"
+    } ]
+  }, {
+    "event_info" : {
+      "date" : "14/04/2025 18:40:24",
+      "sequence" : 70,
+      "date_format" : "dd/mm/rrrr hh24:mi:ss",
+      "dml_operation" : "INSERT",
+      "table_name" : "CMDK_OBJECT_INTERCEPTOR",
+      "tag_name" : "CMDK",
+      "tasy_user" : "dgalvan",
+      "guid" : "54eee379-7e93-4f3b-85e6-850fdd6bcbac"
+    },
+    "server_info" : {
+      "charset" : "AMERICAN_AMERICA.AL32UTF8",
+      "database_version" : "19.0",
+      "instance_name" : "phcdb4"
+    },
+    "session_info" : {
+      "machine" : "7fe8100b91d4",
+      "os_user" : "root",
+      "tasy_user" : "dgalvan"
+    },
+    "primary_key_values" : [ {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : 5667,
+      "old_value" : null
+    } ],
+    "column_values" : [ {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : 5667,
+      "old_value" : null
+    }, {
+      "column_name" : "DT_ATUALIZACAO",
+      "data_type" : "DATE",
+      "new_value" : "14/04/2025 14:20:45",
+      "old_value" : null
+    }, {
+      "column_name" : "NM_USUARIO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "dgalvan",
+      "old_value" : null
+    }, {
+      "column_name" : "NM_OBJECT",
+      "data_type" : "VARCHAR2",
+      "new_value" : "GERAR_ORDEM_REPOSICAO_CONSIG",
+      "old_value" : null
+    }, {
+      "column_name" : "OBJECT_TYPE",
+      "data_type" : "VARCHAR2",
+      "new_value" : "PROCEDURE",
+      "old_value" : null
+    }, {
+      "column_name" : "IE_INTERCEPTED",
+      "data_type" : "VARCHAR2",
+      "new_value" : "Y",
+      "old_value" : null
+    } ]
+  }, {
+    "event_info" : {
+      "date" : "14/04/2025 18:40:24",
+      "sequence" : 71,
+      "date_format" : "dd/mm/rrrr hh24:mi:ss",
+      "dml_operation" : "DELETE",
+      "table_name" : "CMDK_OBJECT_INTERCEPTOR",
+      "tag_name" : "CMDK",
+      "tasy_user" : "dgalvan",
+      "guid" : "b8e4d076-9f68-4f42-b3f1-f47880247653"
+    },
+    "server_info" : {
+      "charset" : "AMERICAN_AMERICA.AL32UTF8",
+      "database_version" : "19.0",
+      "instance_name" : "phcdb4"
+    },
+    "session_info" : {
+      "machine" : "7fe8100b91d4",
+      "os_user" : "root",
+      "tasy_user" : "dgalvan"
+    },
+    "primary_key_values" : [ {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : null,
+      "old_value" : 4983
+    } ],
+    "column_values" : [ {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : null,
+      "old_value" : 4983
+    }, {
+      "column_name" : "DT_ATUALIZACAO",
+      "data_type" : "DATE",
+      "new_value" : null,
+      "old_value" : "14/04/2025 14:22:23"
+    }, {
+      "column_name" : "NM_USUARIO",
+      "data_type" : "VARCHAR2",
+      "new_value" : null,
+      "old_value" : "dgalvan"
+    }, {
+      "column_name" : "NM_OBJECT",
+      "data_type" : "VARCHAR2",
+      "new_value" : null,
+      "old_value" : "GERAR_ORDEM_REPOSICAO_CONSIG"
+    }, {
+      "column_name" : "OBJECT_TYPE",
+      "data_type" : "VARCHAR2",
+      "new_value" : null,
+      "old_value" : "PROCEDURE"
+    }, {
+      "column_name" : "IE_INTERCEPTED",
+      "data_type" : "VARCHAR2",
+      "new_value" : null,
+      "old_value" : "Y"
+    } ]
+  }, {
+    "event_info" : {
+      "date" : "14/04/2025 18:40:24",
+      "sequence" : 72,
+      "date_format" : "dd/mm/rrrr hh24:mi:ss",
+      "dml_operation" : "INSERT",
+      "table_name" : "CMDK_OBJECT_INTERCEPTOR",
+      "tag_name" : "CMDK",
+      "tasy_user" : "dgalvan",
+      "guid" : "9d2f9dd9-5f95-4061-bec5-e4d2035af2d6"
+    },
+    "server_info" : {
+      "charset" : "AMERICAN_AMERICA.AL32UTF8",
+      "database_version" : "19.0",
+      "instance_name" : "phcdb4"
+    },
+    "session_info" : {
+      "machine" : "7fe8100b91d4",
+      "os_user" : "root",
+      "tasy_user" : "dgalvan"
+    },
+    "primary_key_values" : [ {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : 5668,
+      "old_value" : null
+    } ],
+    "column_values" : [ {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : 5668,
+      "old_value" : null
+    }, {
+      "column_name" : "DT_ATUALIZACAO",
+      "data_type" : "DATE",
+      "new_value" : "14/04/2025 14:23:25",
+      "old_value" : null
+    }, {
+      "column_name" : "NM_USUARIO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "dgalvan",
+      "old_value" : null
+    }, {
+      "column_name" : "NM_OBJECT",
+      "data_type" : "VARCHAR2",
+      "new_value" : "GERAR_ORDEM_REPOSICAO_CONSIG",
+      "old_value" : null
+    }, {
+      "column_name" : "OBJECT_TYPE",
+      "data_type" : "VARCHAR2",
+      "new_value" : "PROCEDURE",
+      "old_value" : null
+    }, {
+      "column_name" : "IE_INTERCEPTED",
+      "data_type" : "VARCHAR2",
+      "new_value" : "Y",
+      "old_value" : null
+    } ]
+  }, {
+    "event_info" : {
+      "date" : "14/04/2025 18:40:24",
+      "sequence" : 73,
+      "date_format" : "dd/mm/rrrr hh24:mi:ss",
+      "dml_operation" : "DELETE",
+      "table_name" : "CMDK_OBJECT_INTERCEPTOR",
+      "tag_name" : "CMDK",
+      "tasy_user" : "dgalvan",
+      "guid" : "beed0f6d-c443-4af1-aec3-4bf43d3a4de8"
+    },
+    "server_info" : {
+      "charset" : "AMERICAN_AMERICA.AL32UTF8",
+      "database_version" : "19.0",
+      "instance_name" : "phcdb4"
+    },
+    "session_info" : {
+      "machine" : "7fe8100b91d4",
+      "os_user" : "root",
+      "tasy_user" : "dgalvan"
+    },
+    "primary_key_values" : [ {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : null,
+      "old_value" : 4982
+    } ],
+    "column_values" : [ {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : null,
+      "old_value" : 4982
+    }, {
+      "column_name" : "DT_ATUALIZACAO",
+      "data_type" : "DATE",
+      "new_value" : null,
+      "old_value" : "14/04/2025 14:24:27"
+    }, {
+      "column_name" : "NM_USUARIO",
+      "data_type" : "VARCHAR2",
+      "new_value" : null,
+      "old_value" : "dgalvan"
+    }, {
+      "column_name" : "NM_OBJECT",
+      "data_type" : "VARCHAR2",
+      "new_value" : null,
+      "old_value" : "GERAR_ORDEM_COMPRA_CONSIG"
+    }, {
+      "column_name" : "OBJECT_TYPE",
+      "data_type" : "VARCHAR2",
+      "new_value" : null,
+      "old_value" : "PROCEDURE"
+    }, {
+      "column_name" : "IE_INTERCEPTED",
+      "data_type" : "VARCHAR2",
+      "new_value" : null,
+      "old_value" : "Y"
+    } ]
+  }, {
+    "event_info" : {
+      "date" : "14/04/2025 18:40:24",
+      "sequence" : 74,
+      "date_format" : "dd/mm/rrrr hh24:mi:ss",
+      "dml_operation" : "INSERT",
+      "table_name" : "CMDK_OBJECT_INTERCEPTOR",
+      "tag_name" : "CMDK",
+      "tasy_user" : "dgalvan",
+      "guid" : "6f9320bf-62ec-4278-a6cb-fe97853a6b8c"
+    },
+    "server_info" : {
+      "charset" : "AMERICAN_AMERICA.AL32UTF8",
+      "database_version" : "19.0",
+      "instance_name" : "phcdb4"
+    },
+    "session_info" : {
+      "machine" : "7fe8100b91d4",
+      "os_user" : "root",
+      "tasy_user" : "dgalvan"
+    },
+    "primary_key_values" : [ {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : 5669,
+      "old_value" : null
+    } ],
+    "column_values" : [ {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : 5669,
+      "old_value" : null
+    }, {
+      "column_name" : "DT_ATUALIZACAO",
+      "data_type" : "DATE",
+      "new_value" : "14/04/2025 14:24:34",
+      "old_value" : null
+    }, {
+      "column_name" : "NM_USUARIO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "dgalvan",
+      "old_value" : null
+    }, {
+      "column_name" : "NM_OBJECT",
+      "data_type" : "VARCHAR2",
+      "new_value" : "GERAR_ORDEM_COMPRA_CONSIG",
+      "old_value" : null
+    }, {
+      "column_name" : "OBJECT_TYPE",
+      "data_type" : "VARCHAR2",
+      "new_value" : "PROCEDURE",
+      "old_value" : null
+    }, {
+      "column_name" : "IE_INTERCEPTED",
+      "data_type" : "VARCHAR2",
+      "new_value" : "Y",
+      "old_value" : null
+    } ]
+  }, {
+    "event_info" : {
+      "date" : "14/04/2025 18:40:24",
+      "sequence" : 700075,
+      "date_format" : "dd/mm/rrrr hh24:mi:ss",
+      "dml_operation" : "UPDATE",
+      "table_name" : "OBJETO_SISTEMA",
+      "tag_name" : "CMDK",
+      "tasy_user" : "dgalvan",
+      "guid" : "5495e9b8-86b2-4137-a45f-cc2bc3463594"
+    },
+    "server_info" : {
+      "charset" : "AMERICAN_AMERICA.AL32UTF8",
+      "database_version" : "19.0",
+      "instance_name" : "phcdb4"
+    },
+    "session_info" : {
+      "machine" : "7fe8100b91d4",
+      "os_user" : "root",
+      "tasy_user" : "dgalvan"
+    },
+    "primary_key_values" : [ {
+      "column_name" : "NM_OBJETO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "TCEL_ATUALIZA_VALOR_MAT_ORDEM_CONSIG",
+      "old_value" : "TCEL_ATUALIZA_VALOR_MAT_ORDEM_CONSIG"
+    }, {
+      "column_name" : "IE_BANCO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "Oracle",
+      "old_value" : "Oracle"
+    } ],
+    "column_values" : [ {
+      "column_name" : "NM_OBJETO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "TCEL_ATUALIZA_VALOR_MAT_ORDEM_CONSIG",
+      "old_value" : "TCEL_ATUALIZA_VALOR_MAT_ORDEM_CONSIG"
+    }, {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : 10145440,
+      "old_value" : 10145440
+    }, {
+      "column_name" : "IE_TIPO_OBJETO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "PROCEDURE",
+      "old_value" : "PROCEDURE"
+    }, {
+      "column_name" : "DS_SCRIPT_CRIACAO",
+      "data_type" : "LONG",
+      "new_value" : "create or replace procedure tcel_atualiza_valor_mat_ordem_consig(\n\t\t\tcd_estabelecimento_p in number,\n\t\t\tcd_fornecedor_consignado_p in varchar2,\n\t\t\tcd_local_entrega_p in number,\n\t\t\tnr_atendimento_p in number,\n\t\t\tnr_prescricao_p in number,\n\t\t\tcd_material_p in number,\n\t\t\tqt_compra_p in number,\n\t\t\tnm_usuario_p in varchar2,\n\t\t\tnr_seq_lote_fornec_p in\tnumber\n\t\t\tie_tipo_ordem_p in varchar2) is\n\nnr_ordem_compra_w\t\t\tnumber(10);\ncd_convenio_w\t\t\t\tnumber(05,0); \ncd_categoria_w\t\t\t\tvarchar2(10);\nvl_unitario_material_w\t\tordem_compra_item.vl_unitario_material%type\t:= 0;\nvl_unitario_material2_w\t\tordem_compra_item.vl_unitario_material%type\t:= 0;\nnr_item_oci_w\t\t\t\tordem_compra_item.nr_item_oci%type;\ncd_pessoa_fisica_fornec_w \tnota_fiscal.cd_pessoa_fisica%type;\nnr_sequencia_nf_w\t\t\tmaterial_lote_fornec.nr_sequencia_nf%type;\nie_tipo_atendimento_w\t\tnumber(2);\nie_preco_sus_oc_w\t\t\tvarchar2(1);\nnr_seq_agenda_w\t\t\t\tagenda_paciente.nr_sequencia%type;\nnr_cirurgia_w\t\t\t\tnumber(10,0);\n\nbegin\n\nselect\tnvl(obter_ordem_atend_consignado(cd_estabelecimento_p, cd_fornecedor_consignado_p, cd_local_entrega_p, 0, nr_atendimento_p, nr_prescricao_p,ie_tipo_ordem_p),0)\ninto\tnr_ordem_compra_w\nfrom\tdual;\n\nif\t(nr_ordem_compra_w > 0) then\n\n\tselect nvl(max(nr_item_oci),0)\n\tinto nr_item_oci_w\n    from ordem_compra_item\n\twhere nr_ordem_compra = nr_ordem_compra_w\n\tand cd_material = cd_material_p;\n\t\n\tselect nvl(vl_unitario_material,0)\n\tinto vl_unitario_material_w\n\tfrom ordem_compra_item\n\twhere nr_ordem_compra = nr_ordem_compra_w\n\tand cd_material = cd_material_p\n\tand nr_item_oci = nr_item_oci_w;\n\t\t\t\n\tselect\tcd_convenio,\n\t\tcd_categoria\n\tinto\tcd_convenio_w,\n\t\tcd_categoria_w\n\tfrom\tatendimento_paciente_v\n\twhere\tnr_atendimento\t= nr_atendimento_p;\n\t\n\tselect  max(matlf.nr_sequencia_nf)\n    into    nr_sequencia_nf_w\n    from    material_lote_fornec    matlf\n    where   matlf.nr_sequencia  =   nr_seq_lote_fornec_p;\n\n    select\tmax(nf.cd_pessoa_fisica)\n    into\tcd_pessoa_fisica_fornec_w\n    from    nota_fiscal            nf\n    where   nf.nr_sequencia    =   nr_sequencia_nf_w;\n\t\n\tselect\tnvl(ie_preco_sus_oc,'N')\n\tinto\tie_preco_sus_oc_w\n\tfrom  \tparametro_compras\n\twhere \tcd_estabelecimento = cd_estabelecimento_p;\n\n\tif\t(ie_preco_sus_oc_w = 'S') and\n\t\t(nr_atendimento_p > 0) then\n\n\t\tselect\tObter_Dados_Atendimento(nr_atendimento_p, 'TC')\n\t\tinto\tie_tipo_atendimento_w\n\t\tfrom\tdual;\n\tend if;\n\t\n\tselect\t\tmax(a.nr_cirurgia)\n\tinto\t\tnr_cirurgia_w\n\tfrom\t\tprescr_medica a\n\twhere \t\ta.nr_prescricao = nr_prescricao_p\n    group by\ta.nr_prescricao;\n\t\n\tselect\tnvl(max(a.nr_sequencia),0)\n\tinto\tnr_seq_agenda_w\n\tfrom\tagenda_paciente a,\n\t\tcirurgia b\n\twhere\ta.nr_cirurgia\t= b.nr_cirurgia\n\tand\t\tb.nr_prescricao\t= nr_prescricao_p;\n\n\tif\t(nr_seq_agenda_w = 0) then\n\t\tselect\tnvl(max(a.nr_sequencia),0)\n\t\tinto\tnr_seq_agenda_w\n\t\tfrom\tagenda_paciente a,\n\t\t\tcirurgia b\n\t\twhere \ta.nr_cirurgia\t= b.nr_cirurgia\n\t\tand\t\tb.nr_cirurgia = nr_cirurgia_w;\n\tend if;\n\t\n\ttcel_obter_vl_mat_ordem_consig(\n\t\tcd_estabelecimento_p        =>  cd_estabelecimento_p,\n\t\tcd_fornecedor_consignado_p  =>  cd_fornecedor_consignado_p,\n\t\tcd_pessoa_fisica_fornec_p   =>  cd_pessoa_fisica_fornec_w,\n\t\tcd_material_p               =>  cd_material_p,\n\t\tnr_ordem_compra_p           =>  nr_ordem_compra_w,\n\t\tnr_prescricao_p             =>  nr_prescricao_p,\n\t\tnr_atendimento_p            =>  nr_atendimento_p,\n\t\tie_tipo_atendimento_p       =>  ie_tipo_atendimento_w,\n\t\tnr_seq_agenda_p             =>  nr_seq_agenda_w,\n\t\tdt_atualizacao_p            =>  sysdate,\n\t\tnr_seq_lote_fornec_p        =>  nr_seq_lote_fornec_p,\n\t\tcd_convenio_p               =>  cd_convenio_w,\n\t\tcd_categoria_p              =>  cd_categoria_w,\n\t\tdt_vigencia_p               =>  sysdate,\n\t\tvl_unitario_material_p      =>  vl_unitario_material2_w\n\t);\n\t\t\n\tif\t(nvl(vl_unitario_material2_w,0) > 0) and (nvl(vl_unitario_material_w,0) != nvl(vl_unitario_material2_w,0)) then\n\t\n\t\tupdate\tordem_compra_item\n\t\tset\tvl_unitario_material = vl_unitario_material2_w,\n\t\t\tnm_usuario = nm_usuario_p,\n\t\t\tdt_atualizacao = sysdate,\n\t\t\tvl_total_item = round((qt_compra_p * vl_unitario_material2_w),4)\n\t\twhere\tnr_ordem_compra = nr_ordem_compra_w\n\t\tand cd_material = cd_material_p\n\t\tand nr_item_oci = nr_item_oci_w;\n\t\t\t\n\t\tCalcular_Liquido_Ordem_Compra(nr_ordem_compra_w, nm_usuario_p);\n\t\tgerar_ordem_compra_venc(nr_ordem_compra_w, nm_usuario_p);\n\t\t\n\t\tcommit;\n\tend if;\nend if;\n\nend tcel_atualiza_valor_mat_ordem_consig;\n/",
+      "old_value" : "create or replace procedure tcel_atualiza_valor_mat_ordem_consig(\n\t\t\tcd_estabelecimento_p in number,\n\t\t\tcd_fornecedor_consignado_p in varchar2,\n\t\t\tcd_local_entrega_p in number,\n\t\t\tnr_atendimento_p in number,\n\t\t\tnr_prescricao_p in number,\n\t\t\tcd_material_p in number,\n\t\t\tqt_compra_p in number,\n\t\t\tnm_usuario_p in varchar2,\n\t\t\tnr_seq_lote_fornec_p in\tnumber) is\n\nnr_ordem_compra_w\t\t\tnumber(10);\ncd_convenio_w\t\t\t\tnumber(05,0); \ncd_categoria_w\t\t\t\tvarchar2(10);\nvl_unitario_material_w\t\tordem_compra_item.vl_unitario_material%type\t:= 0;\nvl_unitario_material2_w\t\tordem_compra_item.vl_unitario_material%type\t:= 0;\nnr_item_oci_w\t\t\t\tordem_compra_item.nr_item_oci%type;\ncd_pessoa_fisica_fornec_w \tnota_fiscal.cd_pessoa_fisica%type;\nnr_sequencia_nf_w\t\t\tmaterial_lote_fornec.nr_sequencia_nf%type;\nie_tipo_atendimento_w\t\tnumber(2);\nie_preco_sus_oc_w\t\t\tvarchar2(1);\nnr_seq_agenda_w\t\t\t\tagenda_paciente.nr_sequencia%type;\nnr_cirurgia_w\t\t\t\tnumber(10,0);\n\nbegin\n\nselect\tnvl(obter_ordem_atend_consignado(cd_estabelecimento_p, cd_fornecedor_consignado_p, cd_local_entrega_p, 0, nr_atendimento_p, nr_prescricao_p,'W'),0)\ninto\tnr_ordem_compra_w\nfrom\tdual;\n\nif\t(nr_ordem_compra_w > 0) then\n\n\tselect nvl(max(nr_item_oci),0)\n\tinto nr_item_oci_w\n    from ordem_compra_item\n\twhere nr_ordem_compra = nr_ordem_compra_w\n\tand cd_material = cd_material_p;\n\t\n\tselect nvl(vl_unitario_material,0)\n\tinto vl_unitario_material_w\n\tfrom ordem_compra_item\n\twhere nr_ordem_compra = nr_ordem_compra_w\n\tand cd_material = cd_material_p\n\tand nr_item_oci = nr_item_oci_w;\n\t\t\t\n\tselect\tcd_convenio,\n\t\tcd_categoria\n\tinto\tcd_convenio_w,\n\t\tcd_categoria_w\n\tfrom\tatendimento_paciente_v\n\twhere\tnr_atendimento\t= nr_atendimento_p;\n\t\n\tselect  max(matlf.nr_sequencia_nf)\n    into    nr_sequencia_nf_w\n    from    material_lote_fornec    matlf\n    where   matlf.nr_sequencia  =   nr_seq_lote_fornec_p;\n\n    select\tmax(nf.cd_pessoa_fisica)\n    into\tcd_pessoa_fisica_fornec_w\n    from    nota_fiscal            nf\n    where   nf.nr_sequencia    =   nr_sequencia_nf_w;\n\t\n\tselect\tnvl(ie_preco_sus_oc,'N')\n\tinto\tie_preco_sus_oc_w\n\tfrom  \tparametro_compras\n\twhere \tcd_estabelecimento = cd_estabelecimento_p;\n\n\tif\t(ie_preco_sus_oc_w = 'S') and\n\t\t(nr_atendimento_p > 0) then\n\n\t\tselect\tObter_Dados_Atendimento(nr_atendimento_p, 'TC')\n\t\tinto\tie_tipo_atendimento_w\n\t\tfrom\tdual;\n\tend if;\n\t\n\tselect\t\tmax(a.nr_cirurgia)\n\tinto\t\tnr_cirurgia_w\n\tfrom\t\tprescr_medica a\n\twhere \t\ta.nr_prescricao = nr_prescricao_p\n    group by\ta.nr_prescricao;\n\t\n\tselect\tnvl(max(a.nr_sequencia),0)\n\tinto\tnr_seq_agenda_w\n\tfrom\tagenda_paciente a,\n\t\tcirurgia b\n\twhere\ta.nr_cirurgia\t= b.nr_cirurgia\n\tand\t\tb.nr_prescricao\t= nr_prescricao_p;\n\n\tif\t(nr_seq_agenda_w = 0) then\n\t\tselect\tnvl(max(a.nr_sequencia),0)\n\t\tinto\tnr_seq_agenda_w\n\t\tfrom\tagenda_paciente a,\n\t\t\tcirurgia b\n\t\twhere \ta.nr_cirurgia\t= b.nr_cirurgia\n\t\tand\t\tb.nr_cirurgia = nr_cirurgia_w;\n\tend if;\n\t\n\ttcel_obter_vl_mat_ordem_consig(\n\t\tcd_estabelecimento_p        =>  cd_estabelecimento_p,\n\t\tcd_fornecedor_consignado_p  =>  cd_fornecedor_consignado_p,\n\t\tcd_pessoa_fisica_fornec_p   =>  cd_pessoa_fisica_fornec_w,\n\t\tcd_material_p               =>  cd_material_p,\n\t\tnr_ordem_compra_p           =>  nr_ordem_compra_w,\n\t\tnr_prescricao_p             =>  nr_prescricao_p,\n\t\tnr_atendimento_p            =>  nr_atendimento_p,\n\t\tie_tipo_atendimento_p       =>  ie_tipo_atendimento_w,\n\t\tnr_seq_agenda_p             =>  nr_seq_agenda_w,\n\t\tdt_atualizacao_p            =>  sysdate,\n\t\tnr_seq_lote_fornec_p        =>  nr_seq_lote_fornec_p,\n\t\tcd_convenio_p               =>  cd_convenio_w,\n\t\tcd_categoria_p              =>  cd_categoria_w,\n\t\tdt_vigencia_p               =>  sysdate,\n\t\tvl_unitario_material_p      =>  vl_unitario_material2_w\n\t);\n\t\t\n\tif\t(nvl(vl_unitario_material2_w,0) > 0) and (nvl(vl_unitario_material_w,0) != nvl(vl_unitario_material2_w,0)) then\n\t\n\t\tupdate\tordem_compra_item\n\t\tset\tvl_unitario_material = vl_unitario_material2_w,\n\t\t\tnm_usuario = nm_usuario_p,\n\t\t\tdt_atualizacao = sysdate,\n\t\t\tvl_total_item = round((qt_compra_p * vl_unitario_material2_w),4)\n\t\twhere\tnr_ordem_compra = nr_ordem_compra_w\n\t\tand cd_material = cd_material_p\n\t\tand nr_item_oci = nr_item_oci_w;\n\t\t\t\n\t\tCalcular_Liquido_Ordem_Compra(nr_ordem_compra_w, nm_usuario_p);\n\t\tgerar_ordem_compra_venc(nr_ordem_compra_w, nm_usuario_p);\n\tend if;\nend if;\n\nend tcel_atualiza_valor_mat_ordem_consig;\n/"
+    } ]
+  }, {
+    "event_info" : {
+      "date" : "14/04/2025 18:40:24",
+      "sequence" : 700076,
+      "date_format" : "dd/mm/rrrr hh24:mi:ss",
+      "dml_operation" : "UPDATE",
+      "table_name" : "OBJETO_SISTEMA",
+      "tag_name" : "CMDK",
+      "tasy_user" : "dgalvan",
+      "guid" : "958f91c0-d62e-4395-8b47-2909094cdc85"
+    },
+    "server_info" : {
+      "charset" : "AMERICAN_AMERICA.AL32UTF8",
+      "database_version" : "19.0",
+      "instance_name" : "phcdb4"
+    },
+    "session_info" : {
+      "machine" : "7fe8100b91d4",
+      "os_user" : "root",
+      "tasy_user" : "dgalvan"
+    },
+    "primary_key_values" : [ {
+      "column_name" : "NM_OBJETO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "TCEL_ATUALIZA_VALOR_MAT_ORDEM_CONSIG",
+      "old_value" : "TCEL_ATUALIZA_VALOR_MAT_ORDEM_CONSIG"
+    }, {
+      "column_name" : "IE_BANCO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "Oracle",
+      "old_value" : "Oracle"
+    } ],
+    "column_values" : [ {
+      "column_name" : "NM_OBJETO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "TCEL_ATUALIZA_VALOR_MAT_ORDEM_CONSIG",
+      "old_value" : "TCEL_ATUALIZA_VALOR_MAT_ORDEM_CONSIG"
+    }, {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : 10145440,
+      "old_value" : 10145440
+    }, {
+      "column_name" : "IE_TIPO_OBJETO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "PROCEDURE",
+      "old_value" : "PROCEDURE"
+    }, {
+      "column_name" : "DS_SCRIPT_CRIACAO",
+      "data_type" : "LONG",
+      "new_value" : "create or replace procedure tcel_atualiza_valor_mat_ordem_consig(\n\t\t\tcd_estabelecimento_p in number,\n\t\t\tcd_fornecedor_consignado_p in varchar2,\n\t\t\tcd_local_entrega_p in number,\n\t\t\tnr_atendimento_p in number,\n\t\t\tnr_prescricao_p in number,\n\t\t\tcd_material_p in number,\n\t\t\tqt_compra_p in number,\n\t\t\tnm_usuario_p in varchar2,\n\t\t\tnr_seq_lote_fornec_p in number,\n\t\t\tie_tipo_ordem_p in varchar2) is\n\nnr_ordem_compra_w\t\t\tnumber(10);\ncd_convenio_w\t\t\t\tnumber(05,0); \ncd_categoria_w\t\t\t\tvarchar2(10);\nvl_unitario_material_w\t\tordem_compra_item.vl_unitario_material%type\t:= 0;\nvl_unitario_material2_w\t\tordem_compra_item.vl_unitario_material%type\t:= 0;\nnr_item_oci_w\t\t\t\tordem_compra_item.nr_item_oci%type;\ncd_pessoa_fisica_fornec_w \tnota_fiscal.cd_pessoa_fisica%type;\nnr_sequencia_nf_w\t\t\tmaterial_lote_fornec.nr_sequencia_nf%type;\nie_tipo_atendimento_w\t\tnumber(2);\nie_preco_sus_oc_w\t\t\tvarchar2(1);\nnr_seq_agenda_w\t\t\t\tagenda_paciente.nr_sequencia%type;\nnr_cirurgia_w\t\t\t\tnumber(10,0);\n\nbegin\n\nselect\tnvl(obter_ordem_atend_consignado(cd_estabelecimento_p, cd_fornecedor_consignado_p, cd_local_entrega_p, 0, nr_atendimento_p, nr_prescricao_p,ie_tipo_ordem_p),0)\ninto\tnr_ordem_compra_w\nfrom\tdual;\n\nif\t(nr_ordem_compra_w > 0) then\n\n\tselect nvl(max(nr_item_oci),0)\n\tinto nr_item_oci_w\n    from ordem_compra_item\n\twhere nr_ordem_compra = nr_ordem_compra_w\n\tand cd_material = cd_material_p;\n\t\n\tselect nvl(vl_unitario_material,0)\n\tinto vl_unitario_material_w\n\tfrom ordem_compra_item\n\twhere nr_ordem_compra = nr_ordem_compra_w\n\tand cd_material = cd_material_p\n\tand nr_item_oci = nr_item_oci_w;\n\t\t\t\n\tselect\tcd_convenio,\n\t\tcd_categoria\n\tinto\tcd_convenio_w,\n\t\tcd_categoria_w\n\tfrom\tatendimento_paciente_v\n\twhere\tnr_atendimento\t= nr_atendimento_p;\n\t\n\tselect  max(matlf.nr_sequencia_nf)\n    into    nr_sequencia_nf_w\n    from    material_lote_fornec    matlf\n    where   matlf.nr_sequencia  =   nr_seq_lote_fornec_p;\n\n    select\tmax(nf.cd_pessoa_fisica)\n    into\tcd_pessoa_fisica_fornec_w\n    from    nota_fiscal            nf\n    where   nf.nr_sequencia    =   nr_sequencia_nf_w;\n\t\n\tselect\tnvl(ie_preco_sus_oc,'N')\n\tinto\tie_preco_sus_oc_w\n\tfrom  \tparametro_compras\n\twhere \tcd_estabelecimento = cd_estabelecimento_p;\n\n\tif\t(ie_preco_sus_oc_w = 'S') and\n\t\t(nr_atendimento_p > 0) then\n\n\t\tselect\tObter_Dados_Atendimento(nr_atendimento_p, 'TC')\n\t\tinto\tie_tipo_atendimento_w\n\t\tfrom\tdual;\n\tend if;\n\t\n\tselect\t\tmax(a.nr_cirurgia)\n\tinto\t\tnr_cirurgia_w\n\tfrom\t\tprescr_medica a\n\twhere \t\ta.nr_prescricao = nr_prescricao_p\n    group by\ta.nr_prescricao;\n\t\n\tselect\tnvl(max(a.nr_sequencia),0)\n\tinto\tnr_seq_agenda_w\n\tfrom\tagenda_paciente a,\n\t\tcirurgia b\n\twhere\ta.nr_cirurgia\t= b.nr_cirurgia\n\tand\t\tb.nr_prescricao\t= nr_prescricao_p;\n\n\tif\t(nr_seq_agenda_w = 0) then\n\t\tselect\tnvl(max(a.nr_sequencia),0)\n\t\tinto\tnr_seq_agenda_w\n\t\tfrom\tagenda_paciente a,\n\t\t\tcirurgia b\n\t\twhere \ta.nr_cirurgia\t= b.nr_cirurgia\n\t\tand\t\tb.nr_cirurgia = nr_cirurgia_w;\n\tend if;\n\t\n\ttcel_obter_vl_mat_ordem_consig(\n\t\tcd_estabelecimento_p        =>  cd_estabelecimento_p,\n\t\tcd_fornecedor_consignado_p  =>  cd_fornecedor_consignado_p,\n\t\tcd_pessoa_fisica_fornec_p   =>  cd_pessoa_fisica_fornec_w,\n\t\tcd_material_p               =>  cd_material_p,\n\t\tnr_ordem_compra_p           =>  nr_ordem_compra_w,\n\t\tnr_prescricao_p             =>  nr_prescricao_p,\n\t\tnr_atendimento_p            =>  nr_atendimento_p,\n\t\tie_tipo_atendimento_p       =>  ie_tipo_atendimento_w,\n\t\tnr_seq_agenda_p             =>  nr_seq_agenda_w,\n\t\tdt_atualizacao_p            =>  sysdate,\n\t\tnr_seq_lote_fornec_p        =>  nr_seq_lote_fornec_p,\n\t\tcd_convenio_p               =>  cd_convenio_w,\n\t\tcd_categoria_p              =>  cd_categoria_w,\n\t\tdt_vigencia_p               =>  sysdate,\n\t\tvl_unitario_material_p      =>  vl_unitario_material2_w\n\t);\n\t\t\n\tif\t(nvl(vl_unitario_material2_w,0) > 0) and (nvl(vl_unitario_material_w,0) != nvl(vl_unitario_material2_w,0)) then\n\t\n\t\tupdate\tordem_compra_item\n\t\tset\tvl_unitario_material = vl_unitario_material2_w,\n\t\t\tnm_usuario = nm_usuario_p,\n\t\t\tdt_atualizacao = sysdate,\n\t\t\tvl_total_item = round((qt_compra_p * vl_unitario_material2_w),4)\n\t\twhere\tnr_ordem_compra = nr_ordem_compra_w\n\t\tand cd_material = cd_material_p\n\t\tand nr_item_oci = nr_item_oci_w;\n\t\t\t\n\t\tCalcular_Liquido_Ordem_Compra(nr_ordem_compra_w, nm_usuario_p);\n\t\tgerar_ordem_compra_venc(nr_ordem_compra_w, nm_usuario_p);\n\t\t\n\t\tcommit;\n\tend if;\nend if;\n\nend tcel_atualiza_valor_mat_ordem_consig;\n/",
+      "old_value" : "create or replace procedure tcel_atualiza_valor_mat_ordem_consig(\n\t\t\tcd_estabelecimento_p in number,\n\t\t\tcd_fornecedor_consignado_p in varchar2,\n\t\t\tcd_local_entrega_p in number,\n\t\t\tnr_atendimento_p in number,\n\t\t\tnr_prescricao_p in number,\n\t\t\tcd_material_p in number,\n\t\t\tqt_compra_p in number,\n\t\t\tnm_usuario_p in varchar2,\n\t\t\tnr_seq_lote_fornec_p in\tnumber\n\t\t\tie_tipo_ordem_p in varchar2) is\n\nnr_ordem_compra_w\t\t\tnumber(10);\ncd_convenio_w\t\t\t\tnumber(05,0); \ncd_categoria_w\t\t\t\tvarchar2(10);\nvl_unitario_material_w\t\tordem_compra_item.vl_unitario_material%type\t:= 0;\nvl_unitario_material2_w\t\tordem_compra_item.vl_unitario_material%type\t:= 0;\nnr_item_oci_w\t\t\t\tordem_compra_item.nr_item_oci%type;\ncd_pessoa_fisica_fornec_w \tnota_fiscal.cd_pessoa_fisica%type;\nnr_sequencia_nf_w\t\t\tmaterial_lote_fornec.nr_sequencia_nf%type;\nie_tipo_atendimento_w\t\tnumber(2);\nie_preco_sus_oc_w\t\t\tvarchar2(1);\nnr_seq_agenda_w\t\t\t\tagenda_paciente.nr_sequencia%type;\nnr_cirurgia_w\t\t\t\tnumber(10,0);\n\nbegin\n\nselect\tnvl(obter_ordem_atend_consignado(cd_estabelecimento_p, cd_fornecedor_consignado_p, cd_local_entrega_p, 0, nr_atendimento_p, nr_prescricao_p,ie_tipo_ordem_p),0)\ninto\tnr_ordem_compra_w\nfrom\tdual;\n\nif\t(nr_ordem_compra_w > 0) then\n\n\tselect nvl(max(nr_item_oci),0)\n\tinto nr_item_oci_w\n    from ordem_compra_item\n\twhere nr_ordem_compra = nr_ordem_compra_w\n\tand cd_material = cd_material_p;\n\t\n\tselect nvl(vl_unitario_material,0)\n\tinto vl_unitario_material_w\n\tfrom ordem_compra_item\n\twhere nr_ordem_compra = nr_ordem_compra_w\n\tand cd_material = cd_material_p\n\tand nr_item_oci = nr_item_oci_w;\n\t\t\t\n\tselect\tcd_convenio,\n\t\tcd_categoria\n\tinto\tcd_convenio_w,\n\t\tcd_categoria_w\n\tfrom\tatendimento_paciente_v\n\twhere\tnr_atendimento\t= nr_atendimento_p;\n\t\n\tselect  max(matlf.nr_sequencia_nf)\n    into    nr_sequencia_nf_w\n    from    material_lote_fornec    matlf\n    where   matlf.nr_sequencia  =   nr_seq_lote_fornec_p;\n\n    select\tmax(nf.cd_pessoa_fisica)\n    into\tcd_pessoa_fisica_fornec_w\n    from    nota_fiscal            nf\n    where   nf.nr_sequencia    =   nr_sequencia_nf_w;\n\t\n\tselect\tnvl(ie_preco_sus_oc,'N')\n\tinto\tie_preco_sus_oc_w\n\tfrom  \tparametro_compras\n\twhere \tcd_estabelecimento = cd_estabelecimento_p;\n\n\tif\t(ie_preco_sus_oc_w = 'S') and\n\t\t(nr_atendimento_p > 0) then\n\n\t\tselect\tObter_Dados_Atendimento(nr_atendimento_p, 'TC')\n\t\tinto\tie_tipo_atendimento_w\n\t\tfrom\tdual;\n\tend if;\n\t\n\tselect\t\tmax(a.nr_cirurgia)\n\tinto\t\tnr_cirurgia_w\n\tfrom\t\tprescr_medica a\n\twhere \t\ta.nr_prescricao = nr_prescricao_p\n    group by\ta.nr_prescricao;\n\t\n\tselect\tnvl(max(a.nr_sequencia),0)\n\tinto\tnr_seq_agenda_w\n\tfrom\tagenda_paciente a,\n\t\tcirurgia b\n\twhere\ta.nr_cirurgia\t= b.nr_cirurgia\n\tand\t\tb.nr_prescricao\t= nr_prescricao_p;\n\n\tif\t(nr_seq_agenda_w = 0) then\n\t\tselect\tnvl(max(a.nr_sequencia),0)\n\t\tinto\tnr_seq_agenda_w\n\t\tfrom\tagenda_paciente a,\n\t\t\tcirurgia b\n\t\twhere \ta.nr_cirurgia\t= b.nr_cirurgia\n\t\tand\t\tb.nr_cirurgia = nr_cirurgia_w;\n\tend if;\n\t\n\ttcel_obter_vl_mat_ordem_consig(\n\t\tcd_estabelecimento_p        =>  cd_estabelecimento_p,\n\t\tcd_fornecedor_consignado_p  =>  cd_fornecedor_consignado_p,\n\t\tcd_pessoa_fisica_fornec_p   =>  cd_pessoa_fisica_fornec_w,\n\t\tcd_material_p               =>  cd_material_p,\n\t\tnr_ordem_compra_p           =>  nr_ordem_compra_w,\n\t\tnr_prescricao_p             =>  nr_prescricao_p,\n\t\tnr_atendimento_p            =>  nr_atendimento_p,\n\t\tie_tipo_atendimento_p       =>  ie_tipo_atendimento_w,\n\t\tnr_seq_agenda_p             =>  nr_seq_agenda_w,\n\t\tdt_atualizacao_p            =>  sysdate,\n\t\tnr_seq_lote_fornec_p        =>  nr_seq_lote_fornec_p,\n\t\tcd_convenio_p               =>  cd_convenio_w,\n\t\tcd_categoria_p              =>  cd_categoria_w,\n\t\tdt_vigencia_p               =>  sysdate,\n\t\tvl_unitario_material_p      =>  vl_unitario_material2_w\n\t);\n\t\t\n\tif\t(nvl(vl_unitario_material2_w,0) > 0) and (nvl(vl_unitario_material_w,0) != nvl(vl_unitario_material2_w,0)) then\n\t\n\t\tupdate\tordem_compra_item\n\t\tset\tvl_unitario_material = vl_unitario_material2_w,\n\t\t\tnm_usuario = nm_usuario_p,\n\t\t\tdt_atualizacao = sysdate,\n\t\t\tvl_total_item = round((qt_compra_p * vl_unitario_material2_w),4)\n\t\twhere\tnr_ordem_compra = nr_ordem_compra_w\n\t\tand cd_material = cd_material_p\n\t\tand nr_item_oci = nr_item_oci_w;\n\t\t\t\n\t\tCalcular_Liquido_Ordem_Compra(nr_ordem_compra_w, nm_usuario_p);\n\t\tgerar_ordem_compra_venc(nr_ordem_compra_w, nm_usuario_p);\n\t\t\n\t\tcommit;\n\tend if;\nend if;\n\nend tcel_atualiza_valor_mat_ordem_consig;\n/"
+    } ]
+  } ]
+}
