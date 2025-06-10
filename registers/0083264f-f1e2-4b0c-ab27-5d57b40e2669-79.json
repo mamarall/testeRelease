@@ -1,65 +1,50 @@
 {
   "changes" : [ {
     "event_info" : {
-      "date" : "08/05/2025 17:35:55",
-      "sequence" : 900077,
+      "date" : "17/04/2025 15:30:35",
+      "sequence" : 700002,
       "date_format" : "dd/mm/rrrr hh24:mi:ss",
       "dml_operation" : "INSERT",
-      "table_name" : "FUNCAO",
+      "table_name" : "OBJETO_SISTEMA",
       "tag_name" : "CMDK",
-      "tasy_user" : "",
-      "guid" : "3893ca51-1b29-4efc-bacb-022dd694216e"
+      "tasy_user" : "cmdk_adm",
+      "guid" : "6e5c2f2b-e911-4304-abfe-1198bbae9f1c"
     },
     "server_info" : {
-      "charset" : "AMERICAN_AMERICA.AL32UTF8",
+      "charset" : "BRAZILIAN PORTUGUESE_BRAZIL.AL32UTF8",
       "database_version" : "19.0",
       "instance_name" : "phcdb4"
     },
     "session_info" : {
-      "machine" : "6e17b457c48d",
-      "os_user" : "root",
-      "tasy_user" : "dgalvan"
+      "machine" : "YY299522",
+      "os_user" : "320059526",
+      "tasy_user" : "cmdk_adm"
     },
     "primary_key_values" : [ {
-      "column_name" : "CD_FUNCAO",
-      "data_type" : "NUMBER",
-      "new_value" : 99784,
+      "column_name" : "NM_OBJETO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "CMDKLTD_INSERE_CONTRATO_01",
+      "old_value" : null
+    }, {
+      "column_name" : "IE_BANCO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "Oracle",
       "old_value" : null
     } ],
     "column_values" : [ {
-      "column_name" : "PR_FUNCAO_MODULO",
-      "data_type" : "NUMBER",
-      "new_value" : 0,
-      "old_value" : null
-    }, {
-      "column_name" : "DS_ACTION",
+      "column_name" : "NM_OBJETO",
       "data_type" : "VARCHAR2",
-      "new_value" : "/tcelf6",
+      "new_value" : "CMDKLTD_INSERE_CONTRATO_01",
       "old_value" : null
     }, {
-      "column_name" : "CD_FUNCAO",
-      "data_type" : "NUMBER",
-      "new_value" : 99784,
-      "old_value" : null
-    }, {
-      "column_name" : "IE_SITUACAO",
-      "data_type" : "VARCHAR2",
-      "new_value" : "A",
-      "old_value" : null
-    }, {
-      "column_name" : "NM_USUARIO",
-      "data_type" : "VARCHAR2",
-      "new_value" : "dgalvan",
-      "old_value" : null
-    }, {
-      "column_name" : "IE_REGRA_FUNCIONAMENTO",
+      "column_name" : "IE_MEMORIA",
       "data_type" : "VARCHAR2",
       "new_value" : "N",
       "old_value" : null
     }, {
-      "column_name" : "NR_SEQ_MOD_IMPL",
-      "data_type" : "NUMBER",
-      "new_value" : "283",
+      "column_name" : "DT_CRIACAO",
+      "data_type" : "DATE",
+      "new_value" : "17/04/2025 15:30:42",
       "old_value" : null
     }, {
       "column_name" : "DS_APLICACAO",
@@ -67,231 +52,50 @@
       "new_value" : "Tasy",
       "old_value" : null
     }, {
+      "column_name" : "NM_USUARIO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "cmdk_adm",
+      "old_value" : null
+    }, {
+      "column_name" : "IE_GERAR_SCRIPT",
+      "data_type" : "VARCHAR2",
+      "new_value" : "S",
+      "old_value" : null
+    }, {
+      "column_name" : "IE_BANCO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "Oracle",
+      "old_value" : null
+    }, {
+      "column_name" : "IE_TIPO_OBJETO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "PROCEDURE",
+      "old_value" : null
+    }, {
+      "column_name" : "DS_SCRIPT_CRIACAO",
+      "data_type" : "LONG",
+      "new_value" : "CREATE OR REPLACE PROCEDURE CMDKLTD_INSERE_CONTRATO_01(p_is_rejeitado in varchar2) IS\nBEGIN\n\ninsert into ERRO_ESCRITURAL(cd_banco, cd_erro, dt_atualizacao, nm_usuario, ds_erro, ie_rejeitado) values (40, 999, sysdate, 'jfperet', 'Teste do sistema', p_is_rejeitado);\ncommit;\n\nDELETE FROM ERRO_ESCRITURAL WHERE nm_usuario = 'jfperet';\ncommit;\n\nEND;/",
+      "old_value" : null
+    }, {
       "column_name" : "DT_ATUALIZACAO",
       "data_type" : "DATE",
-      "new_value" : "20/01/2025 14:29:38",
+      "new_value" : "17/04/2025 15:29:45",
       "old_value" : null
-    }, {
-      "column_name" : "IE_LIB_CLIENTE",
-      "data_type" : "VARCHAR2",
-      "new_value" : "N",
-      "old_value" : null
-    }, {
-      "column_name" : "IE_SITUACAO_WEB",
-      "data_type" : "VARCHAR2",
-      "new_value" : "A",
-      "old_value" : null
-    }, {
-      "column_name" : "DT_ATUALIZACAO_NREC",
-      "data_type" : "DATE",
-      "new_value" : "04/10/2024 16:57:32",
-      "old_value" : null
-    }, {
-      "column_name" : "NM_USUARIO_NREC",
-      "data_type" : "VARCHAR2",
-      "new_value" : "dgalvan",
-      "old_value" : null
-    }, {
-      "column_name" : "IE_MAXIMIZAR",
-      "data_type" : "VARCHAR2",
-      "new_value" : "N",
-      "old_value" : null
-    }, {
-      "column_name" : "IE_SITUACAO_SWING",
-      "data_type" : "VARCHAR2",
-      "new_value" : "I",
-      "old_value" : null
-    }, {
-      "column_name" : "IE_DIC_OBJETO",
-      "data_type" : "VARCHAR2",
-      "new_value" : "S",
-      "old_value" : null
-    }, {
-      "column_name" : "IE_BLOQUEADA",
-      "data_type" : "VARCHAR2",
-      "new_value" : "N",
-      "old_value" : null
-    }, {
-      "column_name" : "IE_RELEVANTE_SBIS",
-      "data_type" : "VARCHAR2",
-      "new_value" : "N",
-      "old_value" : null
-    }, {
-      "column_name" : "IE_CLASSIF_PRODUTO",
-      "data_type" : "VARCHAR2",
-      "new_value" : "A",
-      "old_value" : null
-    }, {
-      "column_name" : "IE_CONFIRMA_FECHAR",
-      "data_type" : "VARCHAR2",
-      "new_value" : "N",
-      "old_value" : null
-    }, {
-      "column_name" : "IE_SITUACAO_IOS",
-      "data_type" : "VARCHAR2",
-      "new_value" : "I",
-      "old_value" : null
-    }, {
-      "column_name" : "IE_VERSAO_USO",
-      "data_type" : "VARCHAR2",
-      "new_value" : "H",
-      "old_value" : null
-    }, {
-      "column_name" : "CD_EXP_FUNCAO",
-      "data_type" : "NUMBER",
-      "new_value" : 1130959,
-      "old_value" : null
-    }, {
-      "column_name" : "IE_FORMA_APRESENTACAO",
-      "data_type" : "VARCHAR2",
-      "new_value" : "T",
-      "old_value" : null
-    }, {
-      "column_name" : "IE_UTILITARIO_HTML",
-      "data_type" : "VARCHAR2",
-      "new_value" : "N",
-      "old_value" : null
-    }, {
-      "column_name" : "IE_STATUS_HTML",
-      "data_type" : "VARCHAR2",
-      "new_value" : "A",
-      "old_value" : null
-    }, {
-      "column_name" : "IE_UTILIZA_MACRO",
-      "data_type" : "VARCHAR2",
-      "new_value" : "N",
-      "old_value" : null
-    }, {
-      "column_name" : "IE_LAZY_LOAD",
-      "data_type" : "VARCHAR2",
-      "new_value" : "N",
-      "old_value" : null
-    }, {
-      "column_name" : "DS_ROTA",
-      "data_type" : "VARCHAR2",
-      "new_value" : "/tcelf6",
-      "old_value" : null
-    }, {
-      "column_name" : "IE_SCHEMATIC_ARQUIVO",
-      "data_type" : "VARCHAR2",
-      "new_value" : "S",
-      "old_value" : null
-    }, {
-      "column_name" : "IE_EXCLUSIVA_PHILIPS",
-      "data_type" : "VARCHAR2",
-      "new_value" : "N",
-      "old_value" : null
-    }, {
-      "column_name" : "NR_SEQ_GRUPO_DES",
-      "data_type" : "NUMBER",
-      "new_value" : 0,
-      "old_value" : null
-    } ]
-  }, {
-    "event_info" : {
-      "date" : "08/05/2025 17:35:55",
-      "sequence" : 700078,
-      "date_format" : "dd/mm/rrrr hh24:mi:ss",
-      "dml_operation" : "UPDATE",
-      "table_name" : "OBJETO_SISTEMA",
-      "tag_name" : "CMDK",
-      "tasy_user" : "dgalvan",
-      "guid" : "4be80121-c012-4b38-998a-2864acd09802"
-    },
-    "server_info" : {
-      "charset" : "AMERICAN_AMERICA.AL32UTF8",
-      "database_version" : "19.0",
-      "instance_name" : "phcdb4"
-    },
-    "session_info" : {
-      "machine" : "6e17b457c48d",
-      "os_user" : "root",
-      "tasy_user" : "dgalvan"
-    },
-    "primary_key_values" : [ {
-      "column_name" : "NM_OBJETO",
-      "data_type" : "VARCHAR2",
-      "new_value" : "TCEL_GERAR_APROV_ORDEM_REPO_CONSIG",
-      "old_value" : "TCEL_GERAR_APROV_ORDEM_REPO_CONSIG"
-    }, {
-      "column_name" : "IE_BANCO",
-      "data_type" : "VARCHAR2",
-      "new_value" : "Oracle",
-      "old_value" : "Oracle"
-    } ],
-    "column_values" : [ {
-      "column_name" : "NM_OBJETO",
-      "data_type" : "VARCHAR2",
-      "new_value" : "TCEL_GERAR_APROV_ORDEM_REPO_CONSIG",
-      "old_value" : "TCEL_GERAR_APROV_ORDEM_REPO_CONSIG"
-    }, {
-      "column_name" : "IE_TIPO_OBJETO",
-      "data_type" : "VARCHAR2",
-      "new_value" : "PROCEDURE",
-      "old_value" : "PROCEDURE"
-    }, {
-      "column_name" : "DS_SCRIPT_CRIACAO",
-      "data_type" : "LONG",
-      "new_value" : "create or replace procedure tcel_gerar_aprov_ordem_repo_consig(\n\t\t\tcd_estabelecimento_p\tnumber,\n\t\t\tcd_fornecedor_consignado_p\tvarchar2,\n\t\t\tcd_local_entrega_p\tnumber,\n\t\t\tnr_atendimento_p\tnumber,\n\t\t\tnr_prescricao_p\tnumber,\n\t\t\tcd_material_p\tnumber,\n\t\t\tcd_local_estoque_p\tnumber,\n\t\t\tnm_usuario_p\tvarchar2) is\n\nnr_ordem_compra_w\t\t\tnumber(10);\ncd_operacao_estoque_w\t\tnumber(4,0);\ncd_grupo_material_w\t\t\tnumber(03,0);\ncd_subgrupo_w\t\t\t\tnumber(03,0);\ncd_classe_material_w\t\tnumber(05,0);\ncd_convenio_w\t\t\t\tnumber(05,0);\ncd_setor_prescricao_w\t\tnumber(10);\nie_gera_oc_reposicao_w\t\tvarchar2(1);\nie_aprovar_oc_reposicao_w\tvarchar2(1);\nqt_existe_w\t\t\t\t\tnumber(10);\n\ncursor\tc01 is\n\tselect\tnvl(a.ie_gera_oc_reposicao,'N'),\n\t\tnvl(b.ie_aprovar_oc_reposicao,'N')\n\tfrom\tregra_ordem_consignado a,\n\t\ttcel_regorco b\n\twhere\ta.cd_estabelecimento = cd_estabelecimento_p\n\tand\ta.cd_local_estoque = cd_local_estoque_p\n\tand\ta.cd_operacao_estoque = cd_operacao_estoque_w\n\tand\tnvl(a.cd_grupo_material, cd_grupo_material_w) = cd_grupo_material_w\n\tand\tnvl(a.cd_subgrupo_material, cd_subgrupo_w) = cd_subgrupo_w\n\tand\tnvl(a.cd_classe_material, cd_classe_material_w) = cd_classe_material_w\n\tand\tnvl(a.cd_material, cd_material_p) = cd_material_p\n\tand\tnvl(a.cd_fornecedor, cd_fornecedor_consignado_p) = cd_fornecedor_consignado_p\n\tand\tnvl(a.cd_convenio, cd_convenio_w) = cd_convenio_w\n\tand\tnvl(a.cd_setor_prescricao, cd_setor_prescricao_w) = cd_setor_prescricao_w\n\tand a.nr_sequencia = b.nr_sequencia\n\torder by\n\t\tnvl(a.cd_fornecedor, '0'),\n\t\tnvl(a.cd_convenio, 0),\n\t\tnvl(a.cd_setor_prescricao, 0),\n\t\tnvl(a.cd_material, 0),\n\t\tnvl(a.cd_classe_material, 0),\n\t\tnvl(a.cd_subgrupo_material, 0),\n\t\tnvl(a.cd_grupo_material, 0);\n\nbegin\n\nselect\tnvl(obter_ordem_atend_consignado(cd_estabelecimento_p, cd_fornecedor_consignado_p, cd_local_entrega_p, 0, nr_atendimento_p, nr_prescricao_p,'W'),0)\ninto\tnr_ordem_compra_w\nfrom\tdual;\n\nif\t(nr_ordem_compra_w > 0) then\n\n\tselect\tnvl(cd_operacao_cons_consignado, cd_operacao_cons_paciente)\n\tinto\tcd_operacao_estoque_w\n\tfrom\tparametro_estoque\n\twhere\tcd_estabelecimento = cd_estabelecimento_p;\n\t\n\tif\t(cd_operacao_estoque_w > 0) then\n\t\n\t\tselect\tcd_grupo_material,\n\t\tcd_subgrupo_material,\n\t\tcd_classe_material\n\t\tinto\tcd_grupo_material_w,\n\t\tcd_subgrupo_w,\n\t\tcd_classe_material_w\n\t\tfrom\testrutura_material_v\n\t\twhere \tcd_material = cd_material_p;\n\t\n\t\tcd_convenio_w := nvl(obter_convenio_atendimento(nr_atendimento_p),0);\n\t\n\t\tselect cd_setor_orig\n\t\tinto cd_setor_prescricao_w\n\t\tfrom prescr_medica\n\t\twhere nr_prescricao = nr_prescricao_p;\n\t\n\t\tbegin\n\t\t\topen\tc01;\n\t\t\tloop\n\t\t\tfetch\tc01 into \n\t\t\t\tie_gera_oc_reposicao_w,\n\t\t\t\tie_aprovar_oc_reposicao_w;\n\t\t\texit when c01%notfound;\n\t\t\tend loop;\n\t\t\tclose \tc01;\n\t\tend;\n\t\n\t\tif\t((ie_gera_oc_reposicao_w = 'S') and ((ie_aprovar_oc_reposicao_w = 'S') or ie_aprovar_oc_reposicao_w = 'E')) then\n\t\t\tselect\tcount(*)\n\t\t\tinto\tqt_existe_w\n\t\t\tfrom\tordem_compra\n\t\t\twhere\tnr_ordem_compra\t= nr_ordem_compra_w\n\t\t\tand\tdt_aprovacao is null;\n\t\t\t--Para verificar se a OC ja nao esta aprovada ou reprovada\n\t\t\tif\t(qt_existe_w > 0) then\n\t\t\t\ttcel_gerar_aprov_ordem_compra(nr_ordem_compra_w, null, nm_usuario_p);\n\t\t\t\t\n\t\t\t\tif (ie_aprovar_oc_reposicao_w = 'E') then\n\t\t\t\t   tcel_envia_email_fornecedor_tie(nr_ordem_compra_w,cd_estabelecimento_p, cd_fornecedor_consignado_p, nm_usuario_p);\n\t\t\t\t   --Chamar TIE\n\t\t\t\tend if;\n\t\t\tend if;\n\t\tend if;\n\tend if;\nend if;\n\t\t\t\nend tcel_gerar_aprov_ordem_repo_consig;\n/",
-      "old_value" : "create or replace\nprocedure tcel_gerar_aprov_ordem_repo_consig(\n\t\t\tcd_estabelecimento_p\tnumber,\n\t\t\tcd_fornecedor_consignado_p\tvarchar2,\n\t\t\tcd_local_entrega_p\tnumber,\n\t\t\tnr_atendimento_p\tnumber,\n\t\t\tnr_prescricao_p\tnumber,\n\t\t\tcd_material_p\tnumber,\n\t\t\tcd_local_estoque_p\tnumber,\n\t\t\tnm_usuario_p\tvarchar2) is\n\nnr_ordem_compra_w\t\t\tnumber(10);\ncd_operacao_estoque_w\t\tnumber(4,0);\ncd_grupo_material_w\t\t\tnumber(03,0);\ncd_subgrupo_w\t\t\t\tnumber(03,0);\ncd_classe_material_w\t\tnumber(05,0);\ncd_convenio_w\t\t\t\tnumber(05,0);\ncd_setor_prescricao_w\t\tnumber(10);\nie_gera_oc_reposicao_w\t\tvarchar2(1);\nie_aprovar_oc_reposicao_w\tvarchar2(1);\nqt_existe_w\t\t\t\t\tnumber(10);\n\ncursor\tc01 is\n\tselect\tnvl(a.ie_gera_oc_reposicao,'N'),\n\t\tnvl(b.ie_aprovar_oc_reposicao,'N')\n\tfrom\tregra_ordem_consignado a,\n\t\ttcel_regorco b\n\twhere\ta.cd_estabelecimento = cd_estabelecimento_p\n\tand\ta.cd_local_estoque = cd_local_estoque_p\n\tand\ta.cd_operacao_estoque = cd_operacao_estoque_w\n\tand\tnvl(a.cd_grupo_material, cd_grupo_material_w) = cd_grupo_material_w\n\tand\tnvl(a.cd_subgrupo_material, cd_subgrupo_w) = cd_subgrupo_w\n\tand\tnvl(a.cd_classe_material, cd_classe_material_w) = cd_classe_material_w\n\tand\tnvl(a.cd_material, cd_material_p) = cd_material_p\n\tand\tnvl(a.cd_fornecedor, cd_fornecedor_consignado_p) = cd_fornecedor_consignado_p\n\tand\tnvl(a.cd_convenio, cd_convenio_w) = cd_convenio_w\n\tand\tnvl(a.cd_setor_prescricao, cd_setor_prescricao_w) = cd_setor_prescricao_w\n\tand a.nr_sequencia = b.nr_sequencia\n\torder by\n\t\tnvl(a.cd_fornecedor, '0'),\n\t\tnvl(a.cd_convenio, 0),\n\t\tnvl(a.cd_setor_prescricao, 0),\n\t\tnvl(a.cd_material, 0),\n\t\tnvl(a.cd_classe_material, 0),\n\t\tnvl(a.cd_subgrupo_material, 0),\n\t\tnvl(a.cd_grupo_material, 0);\n\nbegin\n\nselect\tnvl(obter_ordem_atend_consignado(cd_estabelecimento_p, cd_fornecedor_consignado_p, cd_local_entrega_p, 0, nr_atendimento_p, nr_prescricao_p,'W'),0)\ninto\tnr_ordem_compra_w\nfrom\tdual;\n\nif\t(nr_ordem_compra_w > 0) then\n\n\tselect\tnvl(cd_operacao_cons_consignado, cd_operacao_cons_paciente)\n\tinto\tcd_operacao_estoque_w\n\tfrom\tparametro_estoque\n\twhere\tcd_estabelecimento = cd_estabelecimento_p;\n\t\n\tif\t(cd_operacao_estoque_w > 0) then\n\t\n\t\tselect\tcd_grupo_material,\n\t\tcd_subgrupo_material,\n\t\tcd_classe_material\n\t\tinto\tcd_grupo_material_w,\n\t\tcd_subgrupo_w,\n\t\tcd_classe_material_w\n\t\tfrom\testrutura_material_v\n\t\twhere \tcd_material = cd_material_p;\n\t\n\t\tcd_convenio_w := nvl(obter_convenio_atendimento(nr_atendimento_p),0);\n\t\n\t\tselect cd_setor_orig\n\t\tinto cd_setor_prescricao_w\n\t\tfrom prescr_medica\n\t\twhere nr_prescricao = nr_prescricao_p;\n\t\n\t\tbegin\n\t\t\topen\tc01;\n\t\t\tloop\n\t\t\tfetch\tc01 into \n\t\t\t\tie_gera_oc_reposicao_w,\n\t\t\t\tie_aprovar_oc_reposicao_w;\n\t\t\texit when c01%notfound;\n\t\t\tend loop;\n\t\t\tclose \tc01;\n\t\tend;\n\t\n\t\tif\t((ie_gera_oc_reposicao_w = 'S') and ((ie_aprovar_oc_reposicao_w = 'S') or ie_aprovar_oc_reposicao_w = 'E')) then\n\t\t\tselect\tcount(*)\n\t\t\tinto\tqt_existe_w\n\t\t\tfrom\tordem_compra\n\t\t\twhere\tnr_ordem_compra\t= nr_ordem_compra_w\n\t\t\tand\tdt_aprovacao is null;\n\t\t\t/*Para verificar se a OC ja nao esta aprovada ou reprovada*/\n\t\t\tif\t(qt_existe_w > 0) then\n\t\t\t\ttcel_gerar_aprov_ordem_compra(nr_ordem_compra_w, null, nm_usuario_p);\n\t\t\t\t\n\t\t\t\tif (ie_aprovar_oc_reposicao_w = 'E') then\n\t\t\t\t   tcel_envia_email_fornecedor_tie(nr_ordem_compra_w,cd_estabelecimento_p, cd_fornecedor_consignado_p, nm_usuario_p);\n\t\t\t\t   /*Chamar TIE*/\n\t\t\t\tend if;\n\t\t\tend if;\n\t\tend if;\n\tend if;\nend if;\n\t\t\t\nend tcel_gerar_aprov_ordem_repo_consig;\n/"
     }, {
       "column_name" : "NR_SEQUENCIA",
       "data_type" : "NUMBER",
-      "new_value" : 10145525,
-      "old_value" : 10145525
-    } ]
-  }, {
-    "event_info" : {
-      "date" : "08/05/2025 17:35:55",
-      "sequence" : 700079,
-      "date_format" : "dd/mm/rrrr hh24:mi:ss",
-      "dml_operation" : "UPDATE",
-      "table_name" : "OBJETO_SISTEMA",
-      "tag_name" : "CMDK",
-      "tasy_user" : "dgalvan",
-      "guid" : "eca5060e-70d3-4ebc-9d20-694e761e7cf6"
-    },
-    "server_info" : {
-      "charset" : "AMERICAN_AMERICA.AL32UTF8",
-      "database_version" : "19.0",
-      "instance_name" : "phcdb4"
-    },
-    "session_info" : {
-      "machine" : "6e17b457c48d",
-      "os_user" : "root",
-      "tasy_user" : "dgalvan"
-    },
-    "primary_key_values" : [ {
-      "column_name" : "NM_OBJETO",
-      "data_type" : "VARCHAR2",
-      "new_value" : "TCEL_ENVIA_EMAIL_FORNECEDOR_TIE",
-      "old_value" : "TCEL_ENVIA_EMAIL_FORNECEDOR_TIE"
+      "new_value" : 10145854,
+      "old_value" : null
     }, {
-      "column_name" : "IE_BANCO",
+      "column_name" : "IE_CRIPTOGRAFIA",
       "data_type" : "VARCHAR2",
-      "new_value" : "Oracle",
-      "old_value" : "Oracle"
-    } ],
-    "column_values" : [ {
-      "column_name" : "NM_OBJETO",
+      "new_value" : "N",
+      "old_value" : null
+    }, {
+      "column_name" : "DS_LAYER",
       "data_type" : "VARCHAR2",
-      "new_value" : "TCEL_ENVIA_EMAIL_FORNECEDOR_TIE",
-      "old_value" : "TCEL_ENVIA_EMAIL_FORNECEDOR_TIE"
-    }, {
-      "column_name" : "IE_TIPO_OBJETO",
-      "data_type" : "VARCHAR2",
-      "new_value" : "PROCEDURE",
-      "old_value" : "PROCEDURE"
-    }, {
-      "column_name" : "DS_SCRIPT_CRIACAO",
-      "data_type" : "LONG",
-      "new_value" : "create or replace procedure tcel_envia_email_fornecedor_tie (\n\t\t\tnr_ordem_compra_p\tnumber,\n\t\t\tcd_estabelecimento_p\tnumber,\n\t\t\tcd_fornecedor_p\t\t\tvarchar2,\n\t\t\tnm_usuario_p\t\tvarchar2) is\n\nrecipient_w\t\t\t\tpessoa_juridica.ds_email%type;\nJSON_W PHILIPS_JSON := PHILIPS_JSON(); \nJSON_DATA_W              CLOB;\njson_array_w philips_json_list := philips_json_list();\njson_parameters_w philips_json := philips_json();\n\nbegin\n\n\tselect\tsubstr(nvl(b.ds_email,a.ds_email),1,2000)\n\tinto\trecipient_w\n\tfrom\tpessoa_juridica_estab b,\n\t\tpessoa_juridica a\n\twhere\ta.cd_cgc = b.cd_cgc(+)\n\tand\tnvl(b.cd_estabelecimento, cd_estabelecimento_p) = cd_estabelecimento_p\n\tand\ta.cd_cgc = cd_fornecedor_p;\n\t\n\tif (recipient_w is not null) then\n\n\t\tJSON_W.PUT('code', 510);\n\t\tJSON_W.PUT('type', 'CSUP');\n\t\tJSON_W.PUT('title', 'Ordem_Compra ' || nr_ordem_compra_p);\n\t\tJSON_W.PUT('subject', 'Ordem Compra ' || nr_ordem_compra_p);\n\t\tJSON_W.PUT('content', 'Dados referentes a Ordem Compra ' || nr_ordem_compra_p);\t\t\n\t\t\n        json_parameters_w.put('NR_ORDEM_COMPRA', nr_ordem_compra_p);      \n        JSON_W.PUT('parameters', json_parameters_w);\n        \n        json_array_w.append(recipient_w);\n        JSON_W.put('recipientEmails', json_array_w);\n        \n        JSON_W.PUT('readConfirmation', 'true');\n\n\t\tSYS.DBMS_LOB.CREATETEMPORARY(JSON_DATA_W, TRUE); \n\t\tJSON_W.TO_CLOB(JSON_DATA_W); \n\t\t\n        JSON_DATA_W := BIFROST.SEND_INTEGRATION_CONTENT('opme.export.purchase.order.event', JSON_DATA_W, nm_usuario_p); \n\n\tend if;\n\nend tcel_envia_email_fornecedor_tie;\n/",
-      "old_value" : "create or replace\nprocedure tcel_envia_email_fornecedor_tie (\n\t\t\tnr_ordem_compra_p\tnumber,\n\t\t\tcd_estabelecimento_p\tnumber,\n\t\t\tcd_fornecedor_p\t\t\tvarchar2,\n\t\t\tnm_usuario_p\t\tvarchar2) is\n\nrecipient_w\t\t\t\tpessoa_juridica.ds_email%type;\nJSON_W PHILIPS_JSON := PHILIPS_JSON(); \nJSON_DATA_W              CLOB;\njson_array_w philips_json_list := philips_json_list();\njson_parameters_w philips_json := philips_json();\n\nbegin\n\n\tselect\tsubstr(nvl(b.ds_email,a.ds_email),1,2000)\n\tinto\trecipient_w\n\tfrom\tpessoa_juridica_estab b,\n\t\tpessoa_juridica a\n\twhere\ta.cd_cgc = b.cd_cgc(+)\n\tand\tnvl(b.cd_estabelecimento, cd_estabelecimento_p) = cd_estabelecimento_p\n\tand\ta.cd_cgc = cd_fornecedor_p;\n\t\n\tif (recipient_w is not null) then\n\n\t\tJSON_W.PUT('code', 483);\n\t\tJSON_W.PUT('type', 'WSUP');\n\t\tJSON_W.PUT('title', 'Ordem_Compra ' || nr_ordem_compra_p);\n\t\tJSON_W.PUT('subject', 'Ordem Compra ' || nr_ordem_compra_p);\n\t\tJSON_W.PUT('content', 'Dados referentes a Ordem Compra ' || nr_ordem_compra_p);\t\t\n\t\t\n        json_parameters_w.put('NR_ORDEM_COMPRA', nr_ordem_compra_p);      \n        JSON_W.PUT('parameters', json_parameters_w);\n        \n        json_array_w.append(recipient_w);\n        JSON_W.put('recipientEmails', json_array_w);\n        \n        JSON_W.PUT('readCOnfirmation', 'true');\n\n\t\tSYS.DBMS_LOB.CREATETEMPORARY(JSON_DATA_W, TRUE); \n\t\tJSON_W.TO_CLOB(JSON_DATA_W); \n\t\t\n        JSON_DATA_W := BIFROST.SEND_INTEGRATION_CONTENT('opme.export.purchase.order.event', JSON_DATA_W, nm_usuario_p); \n\n\tend if;\n\nend tcel_envia_email_fornecedor_tie;\n/"
-    }, {
-      "column_name" : "NR_SEQUENCIA",
-      "data_type" : "NUMBER",
-      "new_value" : 10145521,
-      "old_value" : 10145521
+      "new_value" : "CORE.CMDK_LTDA",
+      "old_value" : null
     } ]
   } ]
 }
