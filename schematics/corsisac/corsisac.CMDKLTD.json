@@ -1,0 +1,81 @@
+{
+  "identifier" : "CMDKLTD",
+  "migrations" : [ {
+    "op" : "add",
+    "path" : "/children/code:875355/children/code:875357/children/code:875493/children/code:875494/children/code:878863/children/code:878864/children/code:878866/children/code:890068/customProperties/enableMultiFilters",
+    "value" : "N"
+  }, {
+    "op" : "add",
+    "path" : "/children/code:875355/children/code:875357/children/code:875493/children/code:875494/children/code:878863/children/code:878864/children/code:878866/children/code:890068/experimentalFeatures/experimentalForm",
+    "value" : false
+  }, {
+    "op" : "add",
+    "path" : "/children/code:875355/children/code:875357/children/code:875493/children/code:694697946",
+    "value" : {
+      "allowCmdkCustomization" : true,
+      "restrictPrimaryLevel" : "N",
+      "restrictSecondaryLevel" : "N",
+      "restrictTertiaryLevel" : "N",
+      "children" : [ {
+        "children" : [ {
+          "children" : [ {
+            "children" : [ ],
+            "cmdkMetadataCustomization" : false,
+            "code" : 694758800,
+            "componentType" : "WCPANEL",
+            "customProperties" : {
+              "showDynamicReport" : "N"
+            },
+            "description" : "CPanel",
+            "dictionaryCode" : 1047282,
+            "displayOrder" : 1,
+            "legends" : [ ],
+            "metadataFile" : true,
+            "objectType" : "COMPONENT",
+            "params" : [ ],
+            "parentObjectCode" : 694740633,
+            "properties" : {
+              "autoCreateChild" : false,
+              "editableGrid" : false,
+              "emptyActivation" : false,
+              "multiSelection" : false,
+              "paginationType" : "P",
+              "reportConfigVisible" : false,
+              "saveGridColumnOrder" : false,
+              "selectFirstRow" : false,
+              "unificarCountRegistros" : false,
+              "useNewGrid" : true
+            },
+            "reports" : [ ]
+          } ],
+          "code" : 694740633,
+          "description" : "Region 0",
+          "displayOrder" : 1,
+          "objectType" : "REGION",
+          "parentObjectCode" : 694740632
+        } ],
+        "code" : 694740632,
+        "description" : "Master region",
+        "masterRegionType" : "LAYOUT_A",
+        "objectType" : "MASTER_REGION",
+        "parentObjectCode" : 694697946
+      } ],
+      "code" : 694697946,
+      "configurable" : true,
+      "hasObjSchemRules" : false,
+      "description" : "Test",
+      "displayOrder" : 3,
+      "expressionCode" : 299324,
+      "expressionDescription" : "Test",
+      "objectType" : "TAB",
+      "parentObjectCode" : 875493,
+      "topList" : false,
+      "visible" : "S"
+    }
+  }, {
+    "op" : "replace",
+    "path" : "/version",
+    "value" : "1.7.0"
+  } ],
+  "type" : "PARTNER"
+}
